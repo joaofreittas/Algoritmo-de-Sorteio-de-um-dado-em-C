@@ -5,7 +5,7 @@
 main()
 {
 		srand( (unsigned)time(NULL) );
-		int i, qtdJ, x, k, j, f, result[6], cont;
+		int i, qtdJ, x, k, j, f, result[6], cont; // criação de variáveis
 		printf("Quantas vezes voce quer jogar o dado: ");//entrada de dados
 		scanf("%d", &qtdJ);
 		int r[qtdJ];//vetor r do tamanho do numero de jogadas.
